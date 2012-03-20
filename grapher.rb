@@ -5,7 +5,7 @@ require 'open3'
 
 class App
   def start
-    data_files = Dir.glob('data/*.tsv').flatten!
+    data_files = Dir.glob('data/*.tsv')
 
     data_files.each do |data_file|
       basename = File.basename(data_file, '.tsv')
