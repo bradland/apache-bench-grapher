@@ -9,7 +9,7 @@ This utility expects Apache Bench files in the 'gnuplot' format. You can output 
 
 Example `ab` command:
 
-    ab -n 400 -c 10 -g apache-1.plot  "http://myawesomewebsite.com"
+    ab -n 400 -c 10 -g apache-1.tsv  "http://myawesomewebsite.com"
 
 ### Dependencies ###
 
